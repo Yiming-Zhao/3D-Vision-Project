@@ -47,7 +47,7 @@ Please Check the following videos
 * In this Collision Avoidance, I change the GUI that could add and adjust several collision obstacles. The obstacles could be dragged by mouse with right button pressed
 * The boids could simlutaneously avoid collision to multi object.
 * design a Tangent-Method to avoid potential collision along velocity direction and drive boids to steer around obstacles but still move to desired destination
-  
+ ![tangent][tangent.png]
 ## Collaborative Behavior
 The leader is represented by a blue dot and its position could be dragged by mouse with left button pressed.
 [Collaborative Behavior](https://drive.google.com/file/d/1uHpXAR8V0MmPw5t3_alrIcF_SfHO3v6-/view?usp=sharing)
