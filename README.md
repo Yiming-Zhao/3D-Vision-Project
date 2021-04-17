@@ -1,11 +1,28 @@
+
 # Assignment 3 Boids
 
+
+# **Sorry for late submission**
+It seems that I only do the git commit but forget to push.
+
+As I found it, the deadline has already be exceeded.
+
+I understand that there will be point deduction.
+
+But when it will be counted as two days, 20% is really heavy for me.
+
+May ask a deduction with 10% because the submission time will not exceed 24:00 of the first day
+
+When it is not possibl, 15% could also be kind, when the submission time will not exceed 6:00 of the second day
+
+
 ##  Time Integeration
+
 ---
 ### Oberservation:
 * Test with different step size `0.005` ,`0.02` and `0.1`.
 * A simulated centripetal force is applied on each boid. the force is toward origin and its scale is associated  with distance to origin and current velocity. 
-### Conclusion:
+
 1. With larger step size, the movement of boids tends to be unstable. The oscillation is fierce.
 2. The basic method shows more unstablity than two advanced methods
 3. When step size is set to 0.1, the basic method is crashed at first all the boids fly always.
@@ -39,6 +56,8 @@ The leader is represented by a blue dot and its position could be dragged by mou
 In this task, the generation radius, in which the boids could reproduce the offsprings, is the half of the elimination radius, in which the boid from other groups will be eliminated.
 The settiing is logical and realistic.
 
+[Adversarial Behavior](https://www.google.com)
+
 ### No strategy
 It could be obversed that the new boid is generated in the middle of two boids from same group with the 0 velocity of those two boids when the two boids are close enough. The single boid from other group will be eliminated. With time increasing, all the offsprings from same group will form many small cluster. The initial parent still move if they were not eliminated. 
 
@@ -54,3 +73,8 @@ It should be noticed here that strategy should increase the relative population.
 When the strategy is applied only on one group, this group is firstly going to together as a cluster. And then, they fastly move to some boids from the other group. The movement of the group with strategy is more active.
 When the two groups use the strategy. the boids will tend to form two main clusters with time increasing.
 
+## Conclusion:
+In this assignment, I have understand the behaviors of boids.
+To control boid only with force on it is challenging but most interesting
+This assignment also provides me more practice with imGUI.
+If more time, the 3D boids can be implemented.
